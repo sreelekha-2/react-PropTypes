@@ -11,6 +11,9 @@ export default class UserDetails extends React.Component {
     );
   }
 }
+UserDetails.defaultProps = {
+  name: 'SREELEKHA',
+};
 
 UserDetails.propTypes = {
   name: PropTypes.string,

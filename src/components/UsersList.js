@@ -13,7 +13,7 @@ class UsersList extends React.Component {
     return (
       <div>
         {users.map((user) => (
-          <UserDetails name={user.name} id={user.id} />
+          <UserDetails id={user.id} />
         ))}
       </div>
     );
